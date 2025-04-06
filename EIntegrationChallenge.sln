@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EIntegrationChallenge", "EIntegrationChallenge\EIntegrationChallenge.csproj", "{FF244410-9E40-454A-8F1F-0F83AD27A06C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{8C06CE35-C79C-4861-AA6F-D6783115E32A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF244410-9E40-454A-8F1F-0F83AD27A06C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF244410-9E40-454A-8F1F-0F83AD27A06C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF244410-9E40-454A-8F1F-0F83AD27A06C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF244410-9E40-454A-8F1F-0F83AD27A06C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C06CE35-C79C-4861-AA6F-D6783115E32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C06CE35-C79C-4861-AA6F-D6783115E32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C06CE35-C79C-4861-AA6F-D6783115E32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C06CE35-C79C-4861-AA6F-D6783115E32A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E27FF635-5416-452D-AD02-0FB3D5F44C84}
+	EndGlobalSection
+EndGlobal
