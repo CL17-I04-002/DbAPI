@@ -1,9 +1,13 @@
+using Application;
 using Domain.Interfaces.ExternalServices;
+using Infraestructure;
 using Infraestructure.ExternalServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddApplicationServices();
+builder.Services.AddInfrastructureServices(builder.Configuration);
 builder.Services.AddHttpClient<IDbApi, DbApi>(client =>
 {
     client.BaseAddress = new Uri("https://dragonball-api.com/api/");

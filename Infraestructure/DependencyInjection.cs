@@ -4,7 +4,9 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using Domain.Interfaces;
 using Infraestructure.Persistence;
+using Infraestructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -21,6 +23,9 @@ namespace Infraestructure
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
                     opt => opt.MigrationsAssembly(typeof(AppDbContext).Assembly.FullName));
             });
+
+            services.AddTransient<IGenericRepository, GenericRepository>();
+
             return services;
         }
     }

@@ -1,4 +1,5 @@
 ﻿using Application.Interfaces;
+using Application.Services;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -12,8 +13,8 @@ namespace Application
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection services)
         {
-            services.AddScoped<ICharacterService, ICharacterService>();
-            services.AddScoped<ITransformationService, ITransformationService>();
+            services.AddScoped<ICharacterService, CharacterService>();
+            services.AddScoped<ITransformationService, TransfromationService>();
             return services;
         }
     }
