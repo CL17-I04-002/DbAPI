@@ -1,6 +1,15 @@
+using Domain.Interfaces.ExternalServices;
+using Infraestructure.ExternalServices;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddHttpClient<IDbApi, DbApi>(client =>
+{
+    client.BaseAddress = new Uri("https://dragonball-api.com/api/");
+    client.DefaultRequestHeaders.Add("Accept", "application/json");
+    client.Timeout = TimeSpan.FromSeconds(30);
+});
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

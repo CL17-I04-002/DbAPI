@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3DE306F1-E2B7-4640-BADA-42EB5637030E}|Infraestructure\\Infraestructure.csproj|c:\\users\\inspiron\\documents\\rsm\\enterprise integration challenge repository\\infraestructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DE306F1-E2B7-4640-BADA-42EB5637030E}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF244410-9E40-454A-8F1F-0F83AD27A06C}|EIntegrationChallenge\\EIntegrationChallenge.csproj|c:\\users\\inspiron\\documents\\rsm\\enterprise integration challenge repository\\eintegrationchallenge\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FF244410-9E40-454A-8F1F-0F83AD27A06C}|EIntegrationChallenge\\EIntegrationChallenge.csproj|solutionrelative:eintegrationchallenge\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DE306F1-E2B7-4640-BADA-42EB5637030E}|Infraestructure\\Infraestructure.csproj|c:\\users\\inspiron\\documents\\rsm\\enterprise integration challenge repository\\infraestructure\\configuration\\transformationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DE306F1-E2B7-4640-BADA-42EB5637030E}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\configuration\\transformationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DE306F1-E2B7-4640-BADA-42EB5637030E}|Infraestructure\\Infraestructure.csproj|c:\\users\\inspiron\\documents\\rsm\\enterprise integration challenge repository\\infraestructure\\configuration\\characterconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DE306F1-E2B7-4640-BADA-42EB5637030E}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\configuration\\characterconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{909B3837-45CC-4372-91B1-66C80C76F81C}|Application\\Application.csproj|c:\\users\\inspiron\\documents\\rsm\\enterprise integration challenge repository\\application\\mapping\\transfromationmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{909B3837-45CC-4372-91B1-66C80C76F81C}|Application\\Application.csproj|solutionrelative:application\\mapping\\transfromationmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{909B3837-45CC-4372-91B1-66C80C76F81C}|Application\\Application.csproj|c:\\users\\inspiron\\documents\\rsm\\enterprise integration challenge repository\\application\\mapping\\charactermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{909B3837-45CC-4372-91B1-66C80C76F81C}|Application\\Application.csproj|solutionrelative:application\\mapping\\charactermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C06CE35-C79C-4861-AA6F-D6783115E32A}|Domain\\Domain.csproj|c:\\users\\inspiron\\documents\\rsm\\enterprise integration challenge repository\\domain\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C06CE35-C79C-4861-AA6F-D6783115E32A}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{909B3837-45CC-4372-91B1-66C80C76F81C}|Application\\Application.csproj|c:\\users\\inspiron\\documents\\rsm\\enterprise integration challenge repository\\application\\services\\transfromationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{909B3837-45CC-4372-91B1-66C80C76F81C}|Application\\Application.csproj|solutionrelative:application\\services\\transfromationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{909B3837-45CC-4372-91B1-66C80C76F81C}|Application\\Application.csproj|c:\\users\\inspiron\\documents\\rsm\\enterprise integration challenge repository\\application\\services\\characterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{909B3837-45CC-4372-91B1-66C80C76F81C}|Application\\Application.csproj|solutionrelative:application\\services\\characterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{909B3837-45CC-4372-91B1-66C80C76F81C}|Application\\Application.csproj|c:\\users\\inspiron\\documents\\rsm\\enterprise integration challenge repository\\application\\interfaces\\itransformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{909B3837-45CC-4372-91B1-66C80C76F81C}|Application\\Application.csproj|solutionrelative:application\\interfaces\\itransformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DE306F1-E2B7-4640-BADA-42EB5637030E}|Infraestructure\\Infraestructure.csproj|c:\\users\\inspiron\\documents\\rsm\\enterprise integration challenge repository\\infraestructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DE306F1-E2B7-4640-BADA-42EB5637030E}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{909B3837-45CC-4372-91B1-66C80C76F81C}|Application\\Application.csproj|c:\\users\\inspiron\\documents\\rsm\\enterprise integration challenge repository\\application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{909B3837-45CC-4372-91B1-66C80C76F81C}|Application\\Application.csproj|solutionrelative:application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{909B3837-45CC-4372-91B1-66C80C76F81C}|Application\\Application.csproj|c:\\users\\inspiron\\documents\\rsm\\enterprise integration challenge repository\\application\\repository\\characterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{909B3837-45CC-4372-91B1-66C80C76F81C}|Application\\Application.csproj|solutionrelative:application\\repository\\characterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{909B3837-45CC-4372-91B1-66C80C76F81C}|Application\\Application.csproj|c:\\users\\inspiron\\documents\\rsm\\enterprise integration challenge repository\\application\\interfaces\\icharacterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{909B3837-45CC-4372-91B1-66C80C76F81C}|Application\\Application.csproj|solutionrelative:application\\interfaces\\icharacterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\EIntegrationChallenge\\appsettings.json",
+              "RelativeDocumentMoniker": "EIntegrationChallenge\\appsettings.json",
+              "ToolTip": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\EIntegrationChallenge\\appsettings.json",
+              "RelativeToolTip": "EIntegrationChallenge\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-07T00:43:23.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransformationConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Infraestructure\\Configuration\\TransformationConfiguration.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Configuration\\TransformationConfiguration.cs",
+              "ToolTip": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Infraestructure\\Configuration\\TransformationConfiguration.cs",
+              "RelativeToolTip": "Infraestructure\\Configuration\\TransformationConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T00:28:40.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CharacterConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Infraestructure\\Configuration\\CharacterConfiguration.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Configuration\\CharacterConfiguration.cs",
+              "ToolTip": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Infraestructure\\Configuration\\CharacterConfiguration.cs",
+              "RelativeToolTip": "Infraestructure\\Configuration\\CharacterConfiguration.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T00:23:50.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransfromationMapping.cs",
+              "DocumentMoniker": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Application\\Mapping\\TransfromationMapping.cs",
+              "RelativeDocumentMoniker": "Application\\Mapping\\TransfromationMapping.cs",
+              "ToolTip": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Application\\Mapping\\TransfromationMapping.cs",
+              "RelativeToolTip": "Application\\Mapping\\TransfromationMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T00:17:30.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CharacterMapping.cs",
+              "DocumentMoniker": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Application\\Mapping\\CharacterMapping.cs",
+              "RelativeDocumentMoniker": "Application\\Mapping\\CharacterMapping.cs",
+              "ToolTip": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Application\\Mapping\\CharacterMapping.cs",
+              "RelativeToolTip": "Application\\Mapping\\CharacterMapping.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T00:16:12.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TransfromationService.cs",
+              "DocumentMoniker": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Application\\Services\\TransfromationService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\TransfromationService.cs",
+              "ToolTip": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Application\\Services\\TransfromationService.cs",
+              "RelativeToolTip": "Application\\Services\\TransfromationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T00:05:26.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CharacterService.cs",
+              "DocumentMoniker": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Application\\Services\\CharacterService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\CharacterService.cs",
+              "ToolTip": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Application\\Services\\CharacterService.cs",
+              "RelativeToolTip": "Application\\Services\\CharacterService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBQAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T23:32:39.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Infraestructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Infraestructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infraestructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBQAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T23:16:34.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Domain\\Entities\\Character.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Character.cs",
+              "ToolTip": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Domain\\Entities\\Character.cs",
+              "RelativeToolTip": "Domain\\Entities\\Character.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T23:09:23.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Infraestructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Infraestructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T22:47:52.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Application\\DependencyInjection.cs",
+              "RelativeToolTip": "Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T20:41:53.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CharacterRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Application\\Repository\\CharacterRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Repository\\CharacterRepository.cs",
+              "ToolTip": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Application\\Repository\\CharacterRepository.cs",
+              "RelativeToolTip": "Application\\Repository\\CharacterRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T20:40:08.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITransformationService.cs",
+              "DocumentMoniker": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Application\\Interfaces\\ITransformationService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\ITransformationService.cs",
+              "ToolTip": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Application\\Interfaces\\ITransformationService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\ITransformationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T20:37:45.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICharacterService.cs",
+              "DocumentMoniker": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Application\\Interfaces\\ICharacterService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\ICharacterService.cs",
+              "ToolTip": "C:\\Users\\Inspiron\\Documents\\RSM\\Enterprise Integration challenge repository\\Application\\Interfaces\\ICharacterService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\ICharacterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T20:33:02.235Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

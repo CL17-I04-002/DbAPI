@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
-    public interface IRepository
+    public interface IGenericRepository
     {
         Task<IEnumerable<T>> GetAllAsync<T>() where T : class;
         Task<T> GetByIdAsync<T>(int id) where T : class;
