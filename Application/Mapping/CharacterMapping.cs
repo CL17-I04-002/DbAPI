@@ -1,4 +1,5 @@
 ﻿using Domain.Entities;
+using Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,15 +10,14 @@ namespace Application.Mapping
 {
     public static class CharacterMapping
     {
-        public static Character ToCharacter(this Character character) => new Character
+        public static Character ToEntity(this CharacterDto dto) => new Character
         {
-            id = character.id,
-            Name = character.Name,
-            Ki = character.Ki,
-            Race = character.Race,
-            Gender = character.Gender,
-            Description = character.Description,
-            Affiliation = character.Affiliation
+            Name = dto.Name,
+            Ki = dto.Ki,
+            Race = dto.Race,
+            Gender = dto.Gender,
+            Description = dto.Description,
+            Affiliation = dto.Affiliation
         };
     }
 }

@@ -5,22 +5,45 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Domain.Models;
-    public class Character
+
+public class CharacterDto
+{
+    public int Id { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public string Ki { get; set; } = string.Empty;
+    public string MaxKi { get; set; } = string.Empty;
+    public string Race { get; set; } = string.Empty;
+    public string Gender { get; set; } = string.Empty;
+    public string Description { get; set; } = string.Empty;
+    public string Image { get; set; } = string.Empty;
+    public string Affiliation { get; set; } = string.Empty;
+    public string? DeletedAt { get; set; }
+}
+public class Meta
+{
+    public int TotalItems { get; set; }
+    public int ItemCount { get; set; }
+    public int ItemsPerPage { get; set; }
+    public int TotalPages { get; set; }
+    public int CurrentPage { get; set; }
+}
+public class Links
+{
+    public string First { get; set; } = string.Empty;
+    public string? Previous { get; set; }
+    public string Next { get; set; } = string.Empty;
+    public string Last { get; set; } = string.Empty;
+}
+public class CharacterApiResponse
+{
+    public List<CharacterDto> Items { get; set; } = new();
+    public Meta Meta { get; set; } = new();
+    public Links Links { get; set; } = new();
+
+    public CharacterApiResponse()
     {
-        public int Id { get; set; }
-        public string? Name { get; set; } = string.Empty;
-        public string? Ki { get; set; } = string.Empty;
-        public string? MaxKi { get; set; } = string.Empty;
-        public string? Race { get; set; } = string.Empty;
-        public string? Gender { get; set; } = string.Empty;
-        public string? Description { get; set; } = string.Empty;
-        public string? Image { get; set; } = string.Empty;
-        public string? Affiliation { get; set; } = string.Empty;
-        public DateTime? DeletedAt { get; set; } = null;
-
-    public OriginPlanet? OriginPlanet { get; set; }
-
-    public List<Transformation> Transformations { get; set; } = new();
+        
+    }
 }
 public class OriginPlanet
 {
@@ -32,7 +55,7 @@ public class OriginPlanet
     public DateTime? DeletedAt { get; set; }
 }
 
-public class Transformation
+public class TransformationDto
 {
     public int Id { get; set; }
     public string Name { get; set; } = string.Empty;

@@ -1,4 +1,5 @@
 ﻿using Domain.Entities;
+using Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,10 @@ namespace Domain.Interfaces.ExternalServices
 {
     public interface IDbApi
     {
-        Task<IEnumerable<Character>> GetAllCharactersAsync(int page, int perPage, string search);
-        Task<Character> GetCharacterByIdAsync(int id);
-        Task<IEnumerable<Transformation>> GetAllTransformationAsync(int page, int perPage, string search);
+        Task<List<Character>> GetAllCharactersAsync();
+        Task<Entities.Character?> GetCharacterByIdAsync(int id);
+        Task<IEnumerable<Entities.Transformation>> GetAllTransformationAsync(int page, int perPage, string search);
+        Task<List<Character>?> SyncDataFromExternalService();
 
     }
 }
