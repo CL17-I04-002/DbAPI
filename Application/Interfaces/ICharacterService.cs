@@ -9,8 +9,7 @@ namespace Application.Interfaces
 {
     public interface ICharacterService
     {
-        Task<IEnumerable<Character>> GetAllCharactersAsync();
-        Task<Character> GetCharacterByIdAsync(int id);
-        Task<Character> CreateCharacterAsync(Character character);
+        Task<IEnumerable<Character?>> GetAllCharactersAsync();
+        Task<Character?> GetCharacterByIdAsync(int id);
     }
 }

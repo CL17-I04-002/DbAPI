@@ -15,8 +15,9 @@ namespace EIntegrationChallenge.Controllers
         public async Task<ActionResult> Create()
         {
            var allCharacter = await dbApiClient.SyncDataFromExternalService();
-            if (allCharacter == null) return Conflict("You must clean data before synchronizing");
-            else return Ok(allCharacter);
+            if (allCharacter == 0) return Conflict("You must clean data before synchronizing");
+            else if(allCharacter == -1) return Conflict("There was an error synchronizing the data");
+            else return Ok("Data was synchronized");
         }
 
         [HttpGet("{id}")]
@@ -31,7 +32,7 @@ namespace EIntegrationChallenge.Controllers
         [HttpGet("all")]
         public async Task<IActionResult> GetCharacters()
         {
-            var characters = await dbApiClient.GetAllCharactersAsync(); 
+            var characters = await service.GetAllCharactersAsync(); 
             return Ok(characters);
 
         }

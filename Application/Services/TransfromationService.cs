@@ -11,9 +11,10 @@ namespace Application.Services
 {
     public class TransfromationService(IGenericRepository repository) : ITransformationService
     {
-        public async Task<IEnumerable<Transformation>> GetAllTransformationsAsync()
+        public async Task<List<Transformation>> GetAllTransformationAsync()
         {
-            return await repository.GetAllAsync<Transformation>();
+            var allTransformation = await repository.GetAllAsync<Transformation>();
+            return allTransformation.ToList();
         }
     }
 }

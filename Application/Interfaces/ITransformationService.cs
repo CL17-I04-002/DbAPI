@@ -9,6 +9,6 @@ namespace Application.Interfaces
 {
     public interface ITransformationService
     {
-        Task<IEnumerable<Transformation>> GetAllTransformationsAsync();
+        Task<List<Transformation>> GetAllTransformationAsync();
     }
 }

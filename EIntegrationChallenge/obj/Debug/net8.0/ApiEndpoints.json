@@ -34,5 +34,15 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EIntegrationChallenge.Controllers.TransformationController",
+    "Method": "GetTransformation",
+    "RelativePath": "api/Transformation/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

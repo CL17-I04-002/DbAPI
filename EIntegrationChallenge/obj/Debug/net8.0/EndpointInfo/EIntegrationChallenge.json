@@ -51,6 +51,18 @@
           }
         }
       }
+    },
+    "/api/Transformation/all": {
+      "get": {
+        "tags": [
+          "Transformation"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": { }

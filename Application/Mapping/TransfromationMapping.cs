@@ -1,4 +1,5 @@
 ﻿using Domain.Entities;
+using Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,8 @@ namespace Application.Mapping
 {
     public static class TransfromationMapping
     {
-        public static Transformation ToTransformation(this Transformation transformation) => new Transformation
+        public static Transformation ToEntity(this TransformationDto transformation) => new Transformation
         {
-            id = transformation.id,
             Name = transformation.Name,
             Ki = transformation.Ki
         };

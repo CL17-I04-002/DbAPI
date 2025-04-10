@@ -11,21 +11,18 @@ namespace Application.Services
 {
     public class CharacterService(IGenericRepository repository) : ICharacterService
     {
-        public async Task<Character> CreateCharacterAsync(Character character)
+
+        public async Task<IEnumerable<Character?>> GetAllCharactersAsync()
         {
-            await repository.AddAsync(character);
-            await repository.SaveChangesAsync();
-            return character;
+            var allCharacters = await repository.GetAllAsync<Character>();
+            return allCharacters.ToList();
         }
 
-        public async Task<IEnumerable<Character>> GetAllCharactersAsync()
+        public async Task<Character?> GetCharacterByIdAsync(int id)
         {
-            return await repository.GetAllAsync<Character>();
-        }
-
-        public async Task<Character> GetCharacterByIdAsync(int id)
-        {
-            return await repository.GetByIdAsync<Character>(id);
+            var character = await repository.GetByIdAsync<Character>(id);
+            if (character != null) return character;
+            else return null;
         }
     }
 }

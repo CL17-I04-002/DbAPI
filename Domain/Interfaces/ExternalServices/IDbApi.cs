@@ -10,10 +10,7 @@ namespace Domain.Interfaces.ExternalServices
 {
     public interface IDbApi
     {
-        Task<List<Character>> GetAllCharactersAsync();
-        Task<Entities.Character?> GetCharacterByIdAsync(int id);
-        Task<IEnumerable<Entities.Transformation>> GetAllTransformationAsync(int page, int perPage, string search);
-        Task<List<Character>?> SyncDataFromExternalService();
+        Task<int> SyncDataFromExternalService();
 
     }
 }
