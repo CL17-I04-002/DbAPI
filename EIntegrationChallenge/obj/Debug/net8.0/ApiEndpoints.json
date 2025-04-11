@@ -55,13 +55,13 @@
     "Parameters": [
       {
         "Name": "userDTO",
-        "Type": "EIntegrationChallenge.Controllers.dto.UserDTO",
+        "Type": "Application.dto.UserDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "EIntegrationChallenge.Controllers.dto.UserTokenDTO",
+        "Type": "Application.dto.UserTokenDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -81,7 +81,7 @@
     "Parameters": [
       {
         "Name": "userDTO",
-        "Type": "EIntegrationChallenge.Controllers.dto.UserDTO",
+        "Type": "Application.dto.UserDTO",
         "IsRequired": true
       }
     ],

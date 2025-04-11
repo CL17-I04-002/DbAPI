@@ -1,4 +1,5 @@
-﻿using EIntegrationChallenge.Controllers.dto;
+﻿using Application.dto;
+using Application.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -14,26 +15,21 @@ namespace EIntegrationChallenge.Controllers
             UserManager<IdentityUser> userManager,
             SignInManager<IdentityUser> signInManager,
             RoleManager<IdentityRole> roleManager,
-            IConfiguration configuration
+            IConfiguration configuration,
+            IUserService userService
         ) : ControllerBase
     {
         [HttpPost("Register")]
         public async Task<IActionResult> Register([FromBody] UserDTO userDTO)
         {
-            var user = await CreateUserAsync(userDTO);
-            if (user == null)
-            {
-                return StatusCode(400, "Error al crear el usuario.");
-            }
+            var user = await userService.CreateUserAsync(userDTO);
+            if (user == null) return StatusCode(400, "Error al crear el usuario.");
 
-            var result = await userManager.CreateAsync(user, userDTO.Password);
-            if (!result.Succeeded)
-            {
-                return HandleErrors(result.Errors);
-            }
+            var result = await userManager.CreateAsync(user, userDTO.Password!);
+            if (!result.Succeeded) return HandleErrors(result.Errors);
 
-            await EnsureRoleExistsAsync("Admin");
-            await EnsureRoleExistsAsync("Customer");
+            await userService.EnsureRoleExistsAsync("Admin", roleManager);
+            await userService.EnsureRoleExistsAsync("Customer", roleManager);
 
             await userManager.AddToRoleAsync(user, "Admin");
 
@@ -49,7 +45,7 @@ namespace EIntegrationChallenge.Controllers
             {
                 var user = await userManager.FindByEmailAsync(userDTO.Email);
                 var roles = await userManager.GetRolesAsync(user);
-                var token = CreateToken(user, roles);
+                var token = userService.CreateToken(user, roles, configuration);
 
                 return new UserTokenDTO
                 {
@@ -61,47 +57,6 @@ namespace EIntegrationChallenge.Controllers
             ModelState.AddModelError("Response", "Invalid user");
 
             return StatusCode(400, ModelState);
-        }
-
-        private string CreateToken(IdentityUser user, IList<string> roles)
-        {
-            var tokenHandler = new JwtSecurityTokenHandler();
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:key"]));
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
-            var claims = new List<Claim>()
-            {
-                
-                new Claim(ClaimTypes.NameIdentifier, user.Id)
-            };
-            
-            foreach (var rolName in roles)
-            {
-                claims.Add(new Claim(ClaimTypes.Role, rolName));
-            }
-           
-            var tokenDescriptor = new SecurityTokenDescriptor
-            {
-                Subject = new ClaimsIdentity(claims),
-                Expires = DateTime.UtcNow.AddDays(7),
-                SigningCredentials = creds
-            };
-
-            var token = tokenHandler.CreateToken(tokenDescriptor);
-            return tokenHandler.WriteToken(token);
-        }
-
-        private async Task<IdentityUser> CreateUserAsync(UserDTO userDTO)
-        {
-            var user = new IdentityUser { UserName = userDTO.Email, Email = userDTO.Email };
-            return user;
-        }
-
-        private async Task EnsureRoleExistsAsync(string roleName)
-        {
-            if (!await roleManager.RoleExistsAsync(roleName))
-            {
-                await roleManager.CreateAsync(new IdentityRole(roleName));
-            }
         }
 
         private IActionResult HandleErrors(IEnumerable<IdentityError> errors)

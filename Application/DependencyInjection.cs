@@ -15,6 +15,7 @@ namespace Application
         {
             services.AddScoped<ICharacterService, CharacterService>();
             services.AddScoped<ITransformationService, TransfromationService>();
+            services.AddScoped<IUserService, UserService>();
             return services;
         }
     }
