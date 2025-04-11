@@ -4,6 +4,7 @@ using Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,6 +17,16 @@ namespace Application.Services
         {
             var allCharacters = await repository.GetAllAsync<Character>();
             return allCharacters.ToList();
+        }
+
+        public async Task<IEnumerable<Character?>> GetByAfiliationAsync(string param)
+        {
+            return await repository.FindByConditionAsync<Character>(c => c.Affiliation == param);
+        }
+
+        public async Task<IEnumerable<Character?>> GetByNameAsync(string param)
+        {
+            return await repository.FindByConditionAsync<Character>(c => c.Name == param);
         }
 
         public async Task<Character?> GetCharacterByIdAsync(int id)

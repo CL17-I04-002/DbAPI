@@ -39,5 +39,33 @@ namespace EIntegrationChallenge.Controllers
             return Ok(characters);
 
         }
+
+        #region Additional Endpoints
+        [HttpGet("by-name")]
+        public async Task<IActionResult> GetByName([FromQuery] string name)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+                return BadRequest("The name parameter is required.");
+
+            var characters = await service.GetByNameAsync(name);
+            if (characters == null || !characters.Any())
+                return NotFound($"No characters found with the name: {name}");
+
+            return Ok(characters);
+        }
+
+        [HttpGet("by-affiliation")]
+        public async Task<IActionResult> GetByAffiliation([FromQuery] string affiliation)
+        {
+            if (string.IsNullOrWhiteSpace(affiliation))
+                return BadRequest("The affiliation parameter is required.");
+
+            var characters = await service.GetByAfiliationAsync(affiliation);
+            if (characters == null || !characters.Any())
+                return NotFound($"No characters found with the affiliation: {affiliation}");
+
+            return Ok(characters);
+        }
+        #endregion
     }
 }

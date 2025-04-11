@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -24,6 +25,10 @@ namespace Infraestructure.Repositories
         public async Task<T> GetByIdAsync<T>(int id) where T : class
         {
             return await context.Set<T>().AsNoTracking().FirstOrDefaultAsync(e => EF.Property<int>(e, "id") == id);
+        }
+        public async Task<IEnumerable<T>> FindByConditionAsync<T>(Expression<Func<T, bool>> predicate) where T : class
+        {
+            return await context.Set<T>().Where(predicate).ToListAsync();
         }
 
         public async Task SaveChangesAsync()

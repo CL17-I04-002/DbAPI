@@ -27,6 +27,38 @@
   },
   {
     "ContainingType": "EIntegrationChallenge.Controllers.CharacterController",
+    "Method": "GetByAffiliation",
+    "RelativePath": "api/Character/by-affiliation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "affiliation",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EIntegrationChallenge.Controllers.CharacterController",
+    "Method": "GetByName",
+    "RelativePath": "api/Character/by-name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EIntegrationChallenge.Controllers.CharacterController",
     "Method": "Create",
     "RelativePath": "api/Character/sync",
     "HttpMethod": "POST",

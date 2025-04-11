@@ -11,5 +11,7 @@ namespace Application.Interfaces
     {
         Task<IEnumerable<Character?>> GetAllCharactersAsync();
         Task<Character?> GetCharacterByIdAsync(int id);
+        Task<IEnumerable<Character?>> GetByNameAsync(string param);
+        Task<IEnumerable<Character?>> GetByAfiliationAsync(string param);
     }
 }
