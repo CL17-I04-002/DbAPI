@@ -9,6 +9,9 @@ C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EInt
 C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\bin\Debug\net8.0\Microsoft.Build.Locator.dll
 C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
@@ -29,6 +32,8 @@ C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EInt
 C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
@@ -177,3 +182,4 @@ C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EInt
 C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\obj\Debug\net8.0\EIntegrationChallenge.pdb
 C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\obj\Debug\net8.0\EIntegrationChallenge.genruntimeconfig.cache
 C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\obj\Debug\net8.0\ref\EIntegrationChallenge.dll
+C:\Users\Inspiron\Documents\RSM\Enterprise Integration challenge repository\EIntegrationChallenge\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

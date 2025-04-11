@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EIntegrationChallenge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d7b6e9e069515fc22fef120d311f2edbd176c6b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0ecdb4334f6f5962030d00a8640ba8468c0406c")]
 [assembly: System.Reflection.AssemblyProductAttribute("EIntegrationChallenge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EIntegrationChallenge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

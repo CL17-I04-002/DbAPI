@@ -1,5 +1,7 @@
 ﻿using Application.Interfaces;
 using Domain.Interfaces.ExternalServices;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -8,6 +10,7 @@ namespace EIntegrationChallenge.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public class CharacterController(ICharacterService service, IDbApi dbApiClient) : Controller
     {
 
