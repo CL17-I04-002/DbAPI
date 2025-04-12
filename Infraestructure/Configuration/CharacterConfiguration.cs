@@ -38,6 +38,10 @@ namespace Infraestructure.Configuration
             builder.Property(c => c.Affiliation)
                 .HasMaxLength(35)
                 .HasColumnType("varchar(35)");
+            builder
+            .HasMany(c => c.Transformations)
+            .WithOne(t => t.Character)
+            .HasForeignKey(t => t.CharacterId);
         }
     }
 }

@@ -15,5 +15,6 @@ namespace Domain.Entities
         public string? Gender { get; set; } = string.Empty;
         public string? Description { get; set; } = string.Empty;
         public string? Affiliation { get; set; } = string.Empty;
+        public ICollection<Transformation> Transformations { get; set; } = new List<Transformation>();
     }
 }
